@@ -1,0 +1,19 @@
+.box {
+    text-align: center;
+    color: black;
+    margin: 8px;
+    margin-top: 40px;
+}
+
+.box2 {
+    padding: 0 20px;
+    text-align: center;
+    color: black;
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+}

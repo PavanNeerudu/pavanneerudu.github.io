@@ -1,0 +1,14 @@
+@media screen and (max-width:1200px) {
+    .sticky-top {
+        margin-top: -60px;
+    }
+}
+
+.navbar-light .navbar-brand {
+    color: #007bff;
+    margin-right: 80px;
+}
+
+.nav-link {
+    margin-right: 10px;
+}

@@ -1,0 +1,225 @@
+#projects {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.text-lighter {
+    font-weight: 200;
+}
+
+.text-bold {
+    font-weight: 600;
+    text-align: center;
+}
+
+.text-muted {
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h3 {
+    font-size: 30px;
+    margin: 0px auto;
+}
+
+header p {
+    text-align: center;
+}
+
+#main {
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+#main .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .section a:hover {
+    text-decoration: none;
+}
+
+.card {
+    width: 320px;
+    padding: 35px;
+    box-shadow: 0.5px 0.5px 12px 0px #80808042;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
+.card.card-crd {
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.card.card-restaurant {
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.card.card-database {
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.card.card-calculator {
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+.card .card-body .card-title {
+    font-size: 18px;
+}
+
+.card-crd .card-body .card-title {
+    color: hsl(180, 62%, 55%);
+}
+
+.card-restaurant .card-body .card-title {
+    color: hsl(0, 78%, 62%);
+}
+
+.card-database .card-body .card-title {
+    color: hsl(34, 97%, 64%);
+}
+
+.card .card-body .card-text {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.card .card-body .card-duration {
+    font-size: 16px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.card .card-footer {
+    margin-top: 4px;
+}
+
+.card .card-footer .card-img {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card .card-footer .card-img img {
+    width: 60px;
+    height: 60px;
+}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        height: unset;
+        margin: 60px auto;
+    }
+    header h3 {
+        text-align: center;
+        font-size: 22px;
+    }
+    #main {
+        flex-direction: column;
+    }
+}
+
+
+/*
+.card-crd .card-footer .card-img {
+    background: url('../img/kubernetes.png') no-repeat 100% 0;
+}*/
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+.heading-meta {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.projects-heading {
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+    margin-bottom: 31px;
+}
+
+
+/*
+#projects {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    
+    50% {
+        background-position: 100% 50%;
+    }
+    
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+    background-size: cover;
+    -webkit-animation: slidein 100s;
+    animation: slidein 100s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@-webkit-keyframes slidein {
+    from {
+        background-position: top;
+        background-size: 3000px;
+    }
+    to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
+}
+
+@keyframes slidein {
+    from {
+        background-position: top;
+        background-size: 3000px;
+    }
+    to {
+        background-position: -100px 0px;
+        background-size: 2750px;
+    }
+}*/
